@@ -1,4 +1,4 @@
-const colors = ["green","red","blue","yellow"];
+const colors = ["green","red","blue","yellow","brown","black","gray","orange","aqua",""];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".colorValue");
 btn.addEventListener("click",function(){

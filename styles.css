@@ -36,15 +36,13 @@ body{
     border: none;
     justify-content: space-between;
     margin-right: 40px;
-    color: white;
 }
 .li_nav2{
-    background-color: #98c1d9;
+    background-color: #e63946;
     padding: 10px;
     margin: 5px 0px;
     border-radius: 5px;
-    width: 100px;
-    color: black;
+    width: 200px;
     border: none;
     justify-content: space-between;
     margin-right: 40px;
@@ -57,7 +55,7 @@ body{
     font-weight: 800;
     font-size: 22px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .li_nav1 a{
     font-weight: 800;
