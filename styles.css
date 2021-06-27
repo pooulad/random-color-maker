@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_nav{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.link_nav{
+    text-align: center;
+    width: 50%;
+
+}
+.ul_nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.li_nav1{
+    
+    background-color: #4d194d;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    justify-content: space-between;
+    margin-right: 40px;
+    color: white;
+}
+.li_nav2{
+    background-color: #98c1d9;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 100px;
+    color: black;
+    border: none;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.li_nav1:hover,.li_nav2:hover{
+    opacity: 80%;
+
+}
+.li_nav2 a{
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.li_nav1 a{
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.li_nav1 a:visited a:focus,.li_nav2 a:visited a:focus{
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+}
+.li_nav1 a:hover,.li_nav2 a:hover{
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+.main_nav h3{
+    color: #03045e;
+    padding: 10px;
+}
+.hex_a{
+
+}
+.reload_a{
+
+}
